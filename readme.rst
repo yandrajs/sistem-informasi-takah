@@ -1,79 +1,57 @@
-Login sebagai admin:
-username: admin
-password: admin123
+# Judul
 
-Login sebagai user:
-username: user
-password: user123
+**Sistem Informasi Takah**
 
-###################
-What is CodeIgniter
-###################
+---
 
-CodeIgniter is an Application Development Framework - a toolkit - for people
-who build web sites using PHP. Its goal is to enable you to develop projects
-much faster than you could if you were writing code from scratch, by providing
-a rich set of libraries for commonly needed tasks, as well as a simple
-interface and logical structure to access these libraries. CodeIgniter lets
-you creatively focus on your project by minimizing the amount of code needed
-for a given task.
+## Deskripsi Singkat
 
-*******************
-Release Information
-*******************
+Projek ini adalah sebuah **Sistem Informasi Takah** yang memiliki fitur utama berupa input data pegawai, pengindeksan otomatis nomor urut, serta pencarian lokasi dokumen. Sistem ini dirancang untuk memudahkan manajemen arsip dan pencarian dokumen dengan efisien menggunakan antarmuka berbasis web.
 
-This repo contains in-development code for future releases. To download the
-latest stable release please visit the `CodeIgniter Downloads
-<https://codeigniter.com/download>`_ page.
+---
 
-**************************
-Changelog and New Features
-**************************
+## Teknologi yang Digunakan
 
-You can find a list of all changes for each release in the `user
-guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
+* **Framework**: CodeIgniter 3 (CI3)
+* **Bahasa Pemrograman**: PHP versi 8.1
+* **Frontend**: Bootstrap
+* **Database**: MySQL
 
-*******************
-Server Requirements
-*******************
+---
 
-PHP version 5.6 or newer is recommended.
+## Informasi Akun
+### Akun Admin
 
-It should work on 5.3.7 as well, but we strongly advise you NOT to run
-such old versions of PHP, because of potential security and performance
-issues, as well as missing features.
+* **Nama**: Admin
+* **Username**: `admin`
+* **Password**: `admin123`
+* **Hak akses**: Memiliki hak akses penuh (menu admin dan user).
 
-************
-Installation
-************
+### Akun User (Pengguna Biasa)
 
-Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
-of the CodeIgniter User Guide.
+* **Nama**: User
+* **Username**: `user`
+* **Password**: `user123`
+* **Hak akses**: Hanya memiliki akses ke menu user.
 
-*******
-License
-*******
+---
 
-Please see the `license
-agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+## Gambar Projek
 
-*********
-Resources
-*********
+Berikut adalah beberapa tampilan dari Sistem Informasi Takah:
 
--  `User Guide <https://codeigniter.com/docs>`_
--  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
--  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
--  `Community Forums <http://forum.codeigniter.com/>`_
--  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
--  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+### 1. Dashboard Admin
 
-Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
-or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+![Dashboard Admin](assets/img/example/dashboard.png)
 
-***************
-Acknowledgement
-***************
+### 2. Halaman Kelola Akun
 
-The CodeIgniter team would like to thank EllisLab, all the
-contributors to the CodeIgniter project and you, the CodeIgniter user.
+![Kelola Akun](assets/img/example/kelola-akun.png)
+
+### 3. Halaman Input Data Pegawai
+
+![Input Data Pegawai](assets/img/example/input-data-pegawai.png)
+
+### 4. Halaman Pencarian Dokumen
+
+![Pencarian Dokumen](assets/img/example/cari-tata-letak.png)
